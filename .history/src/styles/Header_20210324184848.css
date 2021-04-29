@@ -1,0 +1,30 @@
+.header-links a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 9px;
+  padding-top: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial, "Rubik", sans-serif;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.logoD {
+  top: 0;
+  left: 0;
+  margin-left: 5%;
+}
+
+.header-links a:hover {
+  background-color: #969696;
+  color: black;
+}
+.header {
+  height: 40px;
+  background-color: #ffd7d7;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,20 @@
+import "./App.css";
+import LoginButton from "./components/LoginButton";
+import LogoutButton from "./components/LogoutButton";
+import Profile from "./components/Profile";
+
+function App() {
+  const { isLoading } = useAuth0();
+
+  if (isLoading) return <div>Loading...</div>;
+
+  return (
+    <>
+      <LoginButton />
+      <LogoutButton />
+      <Profile />
+    </>
+  );
+}
+
+export default App;

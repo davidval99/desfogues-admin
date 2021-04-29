@@ -1,0 +1,39 @@
+.items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
+  margin: 10rem;
+}
+.item {
+  float: left;
+  width: 45%;
+  padding-left: 3;
+  padding-left: 1em;
+}
+.h1 {
+  color: black;
+  text-align: center;
+}
+
+.image-h {
+  max-width: 60rem;
+  widows: 100%;
+  border-radius: 50%;
+}
+.parrafo-h {
+  color: rgb(0, 0, 0);
+  padding: 90px;
+  text-align: justify;
+  flex: 1 1 30rem;
+  font-size: 17px;
+}
+
+p.impact {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+p.big {
+  line-height: 1.8;
+}

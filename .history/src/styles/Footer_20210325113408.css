@@ -1,0 +1,40 @@
+.main-footer {
+  color: white;
+  background-color: #05375a;
+  padding-top: 3em;
+  width: 100%;
+  bottom: 0;
+  height: 50%;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding-left: 3;
+  padding-left: 1em;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  margin-left: 50px;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.list-unstyled {
+  color: black;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+h4 {
+  color: black;
+  font-size: larger;
+}
+
+.col-sm {
+  color: black;
+  margin-bottom: 50px;
+  margin-left: 40%;
+}
